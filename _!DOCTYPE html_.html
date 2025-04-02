@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人部落格</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>我的個人部落格</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#blog">文章</a></li>
+                <li><a href="#contact">聯絡</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>歡迎來到我的部落格</h2>
+            <p>這裡是我的個人文章分享空間。</p>
+        </section>
+        <section id="about">
+            <h2>關於我</h2>
+            <p>這裡可以寫一些自我介紹。</p>
+        </section>
+        <section id="blog">
+            <h2>最新文章</h2>
+            <div id="posts"></div>
+        </section>
+        <section id="contact">
+            <h2>聯絡我</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="你的名字" required>
+                <input type="email" id="email" placeholder="你的電子郵件" required>
+                <textarea id="message" placeholder="你的訊息" required></textarea>
+                <button type="submit">送出</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 我的個人部落格</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
